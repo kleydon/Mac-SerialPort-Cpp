@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A20975F022839A9500DC6DE1 /* Mac-SerialPort-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mac-SerialPort-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20975F022839A9500DC6DE1 /* Mac-Serial-Port */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mac-Serial-Port"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20975F322839A9500DC6DE1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A20975FF22839C3600DC6DE1 /* TypeAbbreviations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TypeAbbreviations.hpp; sourceTree = "<group>"; };
 		A23D073D22839F4800FC8CF7 /* SerialPort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SerialPort.cpp; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		A20975E722839A9500DC6DE1 = {
 			isa = PBXGroup;
 			children = (
-				A20975F222839A9500DC6DE1 /* Mac-SerialPort-C++ */,
+				A20975F222839A9500DC6DE1 /* MacSerialPort */,
 				A20975F122839A9500DC6DE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,19 +53,19 @@
 		A20975F122839A9500DC6DE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A20975F022839A9500DC6DE1 /* Mac-SerialPort-C++ */,
+				A20975F022839A9500DC6DE1 /* Mac-Serial-Port */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A20975F222839A9500DC6DE1 /* Mac-SerialPort-C++ */ = {
+		A20975F222839A9500DC6DE1 /* MacSerialPort */ = {
 			isa = PBXGroup;
 			children = (
 				A20975F322839A9500DC6DE1 /* main.cpp */,
 				A23D073C22839F4800FC8CF7 /* SerialPort */,
 				A20975FE22839C3600DC6DE1 /* TypeAbbreviations */,
 			);
-			path = "Mac-SerialPort-C++";
+			path = MacSerialPort;
 			sourceTree = "<group>";
 		};
 		A20975FE22839C3600DC6DE1 /* TypeAbbreviations */ = {
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A20975EF22839A9500DC6DE1 /* Mac-SerialPort-C++ */ = {
+		A20975EF22839A9500DC6DE1 /* Mac-Serial-Port */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A20975F722839A9500DC6DE1 /* Build configuration list for PBXNativeTarget "Mac-SerialPort-C++" */;
+			buildConfigurationList = A20975F722839A9500DC6DE1 /* Build configuration list for PBXNativeTarget "Mac-Serial-Port" */;
 			buildPhases = (
 				A20975EC22839A9500DC6DE1 /* Sources */,
 				A20975ED22839A9500DC6DE1 /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "Mac-SerialPort-C++";
+			name = "Mac-Serial-Port";
 			productName = "Mac-SerialPort-C++";
-			productReference = A20975F022839A9500DC6DE1 /* Mac-SerialPort-C++ */;
+			productReference = A20975F022839A9500DC6DE1 /* Mac-Serial-Port */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A20975EB22839A9500DC6DE1 /* Build configuration list for PBXProject "Mac-SerialPort-C++" */;
+			buildConfigurationList = A20975EB22839A9500DC6DE1 /* Build configuration list for PBXProject "Mac-Serial-Port" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A20975EF22839A9500DC6DE1 /* Mac-SerialPort-C++ */,
+				A20975EF22839A9500DC6DE1 /* Mac-Serial-Port */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A20975EB22839A9500DC6DE1 /* Build configuration list for PBXProject "Mac-SerialPort-C++" */ = {
+		A20975EB22839A9500DC6DE1 /* Build configuration list for PBXProject "Mac-Serial-Port" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A20975F522839A9500DC6DE1 /* Debug */,
@@ -294,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A20975F722839A9500DC6DE1 /* Build configuration list for PBXNativeTarget "Mac-SerialPort-C++" */ = {
+		A20975F722839A9500DC6DE1 /* Build configuration list for PBXNativeTarget "Mac-Serial-Port" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A20975F822839A9500DC6DE1 /* Debug */,

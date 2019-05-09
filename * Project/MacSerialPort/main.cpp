@@ -12,7 +12,7 @@
 
 int main(int argc, const char * argv[]) {
 
-    //Connect to device over serial port
+    //* Open port, and connect to a device
     const char devicePathStr[] = "/dev/tty.usbmodem12341";
     const int baudRate = 57600;
     int sfd = openAndConfigureSerialPort(devicePathStr, baudRate);
